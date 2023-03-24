@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compra</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <header>
+        <section>
+            <a href="" class="logo"><img src="./img/logo1.png" alt="Logo de la empresa"></a>
+            <nav>
+                <ul class="menu">
+            </nav>
+        </section>
+        <h1 id="titulo" class="titulo">Ecommerce by Camille Salinas </h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+    <main id="contenedor-productos">
+    </main>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footerLogoColumn">
+            <img src="./img/logo2.png" alt="Logo de la empresa" class="footerLogo">
+        </div>
+        <div class="footerServicesColumn">
+            <h4 class="footerColumnTitle">Nuestros Servicios</h4>
+            <ul class="footerServicesList">
+                <li class="footerServiceItem"><a href="#" class="footerServiceLink">Diseño de Moda</a></li>
+                <li class="footerServiceItem"><a href="#" class="footerServiceLink">Diseño de Accesorios</a></li>
+                <li class="footerServiceItem"><a href="#" class="footerServiceLink">Diseño de Vestuario</a></li>
+                <li class="footerServiceItem"><a href="#" class="footerServiceLink">Asesoría de Imagen</a></li>
+            </ul>
+        </div>
+        <div class="footerLegalColumn">
+            <h4 class="footerColumnTitle">Legal</h4>
+            <ul class="footerLegalList">
+                <li class="footerLegalItem"><a href="#" class="footerLegalLink">Términos y Condiciones</a></li>
+                <li class="footerLegalItem"><a href="#" class="footerLegalLink">Política de Privacidad</a></li>
+                <li class="footerLegalItem"><a href="#" class="footerLegalLink">Política de Devoluciones</a></li>
+                <li class="footerLegalItem"><a href="#" class="footerLegalLink">Aviso Legal</a></li>
+            </ul>
+        </div>
+        <div class="footerSocialColumn">
+            <h4 class="footerColumnTitle">Síguenos</h4>
+            <div class="footerSocialLinks">
+                <a href="#" class="footerSocialLink footerFacebookLink"></a>
+                <a href="#" class="footerSocialLink footerTwitterLink"></a>
+                <a href="#" class="footerSocialLink footerInstagramLink"></a>
+                <a href="#" class="footerSocialLink footerPinterestLink"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
