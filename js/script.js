@@ -20,14 +20,14 @@ const stockProductos = [
     new stock({ id: 6, nombre: "Abrigo Rose", tipo: "Abrigo", cantidad: 1, desc: "Atrevete a vere bien", precio: 170, talle: "L", img: './img/editorial8.JPG' }),
     new stock({ id: 7, nombre: "Abrigo Ocean", tipo: "Abrigo", cantidad: 1, desc: "Estilo y comodidad excepcional", precio: 170, talle: "S", img: './img/chompa5.JPG' }),
     new stock({ id: 8, nombre: "Casaca Wave", tipo: "Casaca", cantidad: 1, desc: "Casaca de mix-denim con diseño unico", precio: 350, talle: "M", img: './img/editorial2.JPG' }),
-    new stock({ id: 9, nombre: "Chompa Celestina", tipo: "Chompa", cantidad: 1, desc: "Hermoso diseño en cuello V ", precio: 110, talle: "S", img: './img/product2.JPG' }),
-    new stock({ id: 10, nombre: "Tshirt Verdana", tipo: "Tshirt", cantidad: 1, desc: "Tshirt grueso abrigador ", precio: 110, talle: "L", img: './img/product1.JPG' }),
-    new stock({ id: 11, nombre: "Camisa Romina", tipo: "Camisa", cantidad: 1, desc: "Ligera y elegante ", precio: 130, talle: "M", img: './img/product3.JPG' }),
-    new stock({ id: 12, nombre: "Chompa Vania", tipo: "Chompa", cantidad: 1, desc: "Oversize perfecta para todas", precio: 110, talle: "M", img: './img/product8.JPG' }),
-    new stock({ id: 13, nombre: "Chompa Carolina", tipo: "Chompa", cantidad: 1, desc: "La perfección en una preda", precio: 110, talle: "L", img: './img/product6.JPG' }),
-    new stock({ id: 14, nombre: "Hoodie Alina", tipo: "Hoodie", cantidad: 1, desc: "Hoodie celeste", precio: 110, talle: "S", img: './img/product5.JPG' }),
-    new stock({ id: 15, nombre: "Hoodie Pink", tipo: "Hoodie", cantidad: 1, desc: "Hoodie rosado", precio: 110, talle: "M", img: './img/product7.JPG' }),
-    new stock({ id: 16, nombre: "Hoodie Grecia", tipo: "Hoodie", cantidad: 1, desc: "Hoodie gris", precio: 110, talle: "L", img: './img/product4.JPG' }),
+    new stock({ id: 9, nombre: "Chompa Celestina", tipo: "Chompa", cantidad: 1, desc: "Hermoso diseño en cuello V ", precio: 110, talle: "S", img: './img/product2.jpg' }),
+    new stock({ id: 10, nombre: "Tshirt Verdana", tipo: "Tshirt", cantidad: 1, desc: "Tshirt grueso abrigador ", precio: 110, talle: "L", img: './img/product1.jpg' }),
+    new stock({ id: 11, nombre: "Camisa Romina", tipo: "Camisa", cantidad: 1, desc: "Ligera y elegante ", precio: 130, talle: "M", img: './img/product3.jpg' }),
+    new stock({ id: 12, nombre: "Chompa Vania", tipo: "Chompa", cantidad: 1, desc: "Oversize perfecta para todas", precio: 110, talle: "M", img: './img/product8.jpg' }),
+    new stock({ id: 13, nombre: "Chompa Carolina", tipo: "Chompa", cantidad: 1, desc: "La perfección en una preda", precio: 110, talle: "L", img: './img/product6.jpg' }),
+    new stock({ id: 14, nombre: "Hoodie Alina", tipo: "Hoodie", cantidad: 1, desc: "Hoodie celeste", precio: 110, talle: "S", img: './img/product5.jpg' }),
+    new stock({ id: 15, nombre: "Hoodie Pink", tipo: "Hoodie", cantidad: 1, desc: "Hoodie rosado", precio: 110, talle: "M", img: './img/product7.jpg' }),
+    new stock({ id: 16, nombre: "Hoodie Grecia", tipo: "Hoodie", cantidad: 1, desc: "Hoodie gris", precio: 110, talle: "L", img: './img/product4.jpg' }),
 ]
 
 const contenedorProductos = document.getElementById('contenedor-productos')
